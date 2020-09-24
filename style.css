@@ -1,3 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #090909;
+    background: #07141b;
+}
+
+body.light {
+    background: #d1dae3;
+}
+
+
+
 .toggleClass {
     position: absolute;
     top: 35px;
