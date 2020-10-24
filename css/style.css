@@ -1,29 +1,11 @@
-@import url(https://fonts.googleapis.com/css?family=Khula:700);
 body {
-  background: #111;
+  background-color:#111;
+  text-align: left;
+  color:#fff;
+  
 }
-.hidden {
-  opacity:0;
+h3{
+  padding-top:3em;
 }
-.console-container {
- 
-  font-family:Khula;
-  font-size:3em;
-  text-align:center;
-  height:150px;
-  width:800px;
-  display:block;
-  position:absolute;
-  color:white;
-  top:0;
-  bottom:0;
-  left:0;
-  right:0;
-  margin:auto;
-}
-.console-underscore {
-   display:inline-block;
-  position:relative;
-  top:-0.14em;
-  left:10px;
-}
+
+* { color:#66fcf1; text-decoration: none;}
