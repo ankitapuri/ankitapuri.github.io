@@ -9,11 +9,15 @@ h2{
      color: #fff;
 }
 
-@import url('//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css');
-* {
-  padding: 10px;
-  margin: 0px;
-}
+.typewrite{
+   color: rgb(149, 228, 107);
+  text-decoration: none;
+  margin-top:2em;
+  }
+  a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: rgb(149, 228, 107);
+    }
 
 
 
