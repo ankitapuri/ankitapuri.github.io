@@ -11,25 +11,41 @@ body {
     margin-left: auto;
    margin-right: auto;
  }
-h2{
-     color: #fff;
-}
-h3{
-  color:coral
-}
+/* type-writer effect */
 .typewrite{
-   color: rgb(149, 228, 107);
-  text-decoration: none;
-  margin-top:2em;
-  
+  color: rgb(149, 228, 107);
+ text-decoration: none;
+ margin-top:2em;
   }
-  a, a:hover, a:focus, a:active {
-    text-decoration: none;
-    color: rgb(149, 228, 107);
-    }
+
+ a, a:hover, a:focus, a:active {
+   text-decoration: none;
+   color: rgb(149, 228, 107);
+   }
+
+h3{
+  text-transform: uppercase;
+  color:coral;
+  font-family: cursive;
+  margin-left: 1.4em;
+ }
+ h3.about{
+   color: fuchsia;
+   font-size: 45px;
+ }
+
+ p.degree{
+   font-size:25px;
+   font-weight: bold;
+   color:antiquewhite
+ }
+
+h4{
+  color:rgb(235, 181, 172)
+} 
 
 
-
+ /* footer-> social links  */
 .svg-inline--fa {
   vertical-align: -0.200em;
 }
