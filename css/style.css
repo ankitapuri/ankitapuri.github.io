@@ -1,6 +1,6 @@
 
 body {
-  background-color:#00071c;
+  background-color:#0e1427;
   text-align: center;
   color:#fff;
   }
@@ -11,6 +11,8 @@ body {
     margin-left: auto;
    margin-right: auto;
  }
+
+
 /* type-writer effect */
 .typewrite{
   color: rgb(149, 228, 107);
@@ -23,25 +25,33 @@ body {
    color: rgb(149, 228, 107);
    }
 
+
 h3{
   text-transform: uppercase;
-  color:coral;
+  color: turquoise;
   font-family: cursive;
   margin-left: 1.4em;
  }
+
  h3.about{
    color: fuchsia;
    font-size: 45px;
  }
 
- p.degree{
+ h4.degree{
    font-size:25px;
    font-weight: bold;
    color:antiquewhite
  }
+p.college{
+  line-height: 1.2em;
+  margin-left:0.2em;
+}
+
+
 
 h4{
-  color:rgb(235, 181, 172)
+  color:rgb(223, 118, 118)
 } 
 
 
