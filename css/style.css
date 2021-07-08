@@ -26,7 +26,7 @@ body {
    }
 
 
-h3{
+ h3.hglight{
   text-transform: uppercase;
   color: turquoise;
   font-family: cursive;
@@ -133,4 +133,31 @@ h4{
   color: #14181b;
   background: #fefefe;
   border-color: #14181b;
+}
+
+
+.tech-icon{
+  height:40px;
+  width: 45px;
+}
+.interests .icon-box {
+  display:inline-flex;
+  align-items: center;
+  
+}
+img.tech-icon{
+  position: relative;
+    margin-right: auto;
+    margin-left: 2em;;
+    left: 3px;
+}
+
+h3.xd{
+  color:rgb(189, 224, 238);
+  font-weight: 300;
+  margin: 0;
+  padding: 0;
+  padding-left: 0.5rem;
+  line-height: 1;
+  font-size: 20px;
 }
