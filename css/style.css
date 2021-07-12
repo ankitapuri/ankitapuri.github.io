@@ -161,3 +161,79 @@ h3.xd{
   line-height: 1;
   font-size: 20px;
 }
+
+
+.projectss {
+  width:350px;
+   display:inline-block;
+    margin-left:50px;
+    margin-top:50px
+    
+  }
+  
+  
+  .projectss .card {
+    
+    position:relative;
+    overflow:hidden;
+    width:350px;
+    margin:0 auto;
+    background:#333;
+    padding:20px;
+    box-sizing:border-box;
+    text-align:center;
+    box-shadow:0 10px 40px rgba(0,0,0,.5)
+  }
+  .projectss .card .layer {
+    z-index:1;
+    position:absolute;
+    top:calc(100% - 2px);
+    height:100%;
+    width:100%;
+    left:0;
+    background:linear-gradient(to left , orange, tomato);
+    transition:0.5s;
+    
+  }
+  
+  .projectss .card .content {
+    z-index:2; 
+    position:relative;
+  }
+  
+  .projectss .card:hover  .layer{
+    top:0;
+  }
+  
+  .projectss .card .content p {
+    font-size:14px;
+    line-height:24px;
+    color:#fff;
+    
+  }
+  .projectss .card .content .image {
+    width:300px; height:300px;
+    margin:0 auto;
+    overflow:hidden;
+    border: 4px solid white;
+    
+    
+  }
+  
+  .projectss .card .conte nt .details h2 {
+  font-size:18px;
+  color:white;
+  }
+  .projectss .card .content .details h2 span {
+  font-size:18px;
+  color:purple;
+    transition:0.5s;
+  }
+  .projectss .card:hover .content .details h2 span {
+    color:white;
+    position:relative
+  }
+  
+  body{
+    margin-bottom:20px
+  }
