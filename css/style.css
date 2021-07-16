@@ -3,6 +3,7 @@ body {
   background-color:#0e1427;
   text-align: center;
   color:#fff;
+  
   }
  img{
     height: 300px;
@@ -15,7 +16,7 @@ body {
 
 /* type-writer effect */
 .typewrite{
-  color: rgb(149, 228, 107);
+  color: #5cdb95;
  text-decoration: none;
  margin-top:2em;
   }
@@ -28,13 +29,13 @@ body {
 
  h3.hglight{
   text-transform: uppercase;
-  color: turquoise;
+  color: #6f2232;
   font-family: cursive;
   margin-left: 1.4em;
  }
 
  h3.about{
-   color: fuchsia;
+   color: #c3073f;
    font-size: 45px;
  }
 
@@ -51,7 +52,8 @@ p.college{
 
 
 h4{
-  color:rgb(223, 118, 118)
+  color:#4e4e50;
+  font-size:25px;
 } 
 
 
