@@ -3,6 +3,8 @@ body {
   background-color:#0e1427;
   text-align: center;
   color:#fff;
+  padding-left: 1em;
+  margin-bottom: 70px;
   }
  img{
     height: 300px;
@@ -36,6 +38,7 @@ body {
  h3.about{
    color: fuchsia;
    font-size: 45px;
+   padding-left: 1em;
  }
 
  h4.degree{
@@ -51,7 +54,8 @@ p.college{
 
 
 h4{
-  color:rgb(223, 118, 118)
+  color:rgb(223, 118, 118);
+  font-weight: bolder;
 } 
 
 
@@ -234,6 +238,4 @@ h3.xd{
     position:relative
   }
   
-  body{
-    margin-bottom:20px
-  }
+  
