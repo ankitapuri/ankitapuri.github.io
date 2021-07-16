@@ -89,27 +89,31 @@ h3.xd{
 .projectss {
   width:350px;
    display:inline-block;
-    margin-left:50px;
+    margin-left:5px;
     margin-top:50px;
     padding-left: 3em;
     padding-right: 3em;
     padding-top: 1em;
-    padding-bottom: 1em;   
+    padding-bottom: 1em; 
+  
+  }
+  @media only screen and (max-width: 600px) {
+    .projectss {
+      width:100%;
+      padding-left:0em;
+      padding-right:1em;
+
+      }
   }
   
-  
   .projectss .card {
-    
-    position:relative;
     overflow:hidden;
     width:350px;
     margin:0 auto;
     background:#333;
     padding:20px;
     box-sizing:border-box;
-    text-align:center;
-    align-items: center;
-    box-shadow:0 10px 40px rgba(0,0,0,.5)
+    border:2px solid #000;
   }
   .projectss .card .layer {
     z-index:1;
@@ -154,10 +158,7 @@ h3.xd{
   color:rgb(44, 43, 44);
     transition:0.5s;
   }
-  .projectss .card:hover .content .details h2 span {
-    color:white;
-    position:relative
-  }
+  
  
   
   /* footer-> social links  */
@@ -166,7 +167,7 @@ h3.xd{
 }
 
 .rounded-social-buttons {
-  text-align: center;
+  align-items: center;
 }
 
 .rounded-social-buttons .social-button {
