@@ -4,6 +4,7 @@ body {
   text-align: center;
   color:#fff;
   padding-left: 1em;
+  padding-right: 1em;
   margin-bottom: 70px;
   }
  img{
@@ -17,26 +18,26 @@ body {
 
 /* type-writer effect */
 .typewrite{
-  color: rgb(149, 228, 107);
+  color: #950740;
  text-decoration: none;
  margin-top:2em;
   }
 
  a, a:hover, a:focus, a:active {
    text-decoration: none;
-   color: rgb(149, 228, 107);
+   color: #5cdb95;
    }
 
 
  h3.hglight{
   text-transform: uppercase;
-  color: turquoise;
+  color: #6f2232;
   font-family: cursive;
   margin-left: 1.4em;
  }
 
  h3.about{
-   color: fuchsia;
+   color: #c3074f;
    font-size: 45px;
    padding-left: 1em;
  }
@@ -51,15 +52,115 @@ p.college{
   margin-left:0.2em;
 }
 
-
-
 h4{
-  color:rgb(223, 118, 118);
+  color:#4e4e50;
   font-weight: bolder;
 } 
 
 
- /* footer-> social links  */
+/* Skills */
+.tech-icon{
+  height:50px;
+  width: 55px;
+}
+.interests .icon-box {
+  display:inline-flex;
+  align-items: center;
+  
+}
+img.tech-icon{
+  position: relative;
+    margin-right: auto;
+    margin-left: 2em;;
+    left: 3px;
+}
+
+h3.xd{
+  color: #adadad;
+  font-weight: 500;
+  margin: 0;
+  padding: 0;
+  padding-left: 0.5rem;
+  line-height: 1;
+  font-size: 20px;
+}
+
+/*Projects */
+.projectss {
+  width:350px;
+   display:inline-block;
+    margin-left:50px;
+    margin-top:50px;
+    padding-left: 3em;
+    padding-right: 3em;
+    padding-top: 1em;
+    padding-bottom: 1em;   
+  }
+  
+  
+  .projectss .card {
+    
+    position:relative;
+    overflow:hidden;
+    width:350px;
+    margin:0 auto;
+    background:#333;
+    padding:20px;
+    box-sizing:border-box;
+    text-align:center;
+    align-items: center;
+    box-shadow:0 10px 40px rgba(0,0,0,.5)
+  }
+  .projectss .card .layer {
+    z-index:1;
+    position:absolute;
+    top:calc(100% - 2px);
+    height:100%;
+    width:100%;
+    left:0;
+    background:linear-gradient(to left , #665cf1, #45a29e);
+    transition:0.5s;
+    
+  }
+  
+  .projectss .card .content {
+    z-index:2; 
+    position:relative;
+  }
+  
+  .projectss .card:hover  .layer{
+    top:0;
+  }
+  
+  .projectss .card .content p {
+    font-size:14px;
+    line-height:24px;
+    color:#fff;
+    
+  }
+  .projectss .card .content .image {
+    width:300px; height:300px;
+    margin:0 auto;
+    overflow:hidden;
+   
+  }
+  
+  .projectss .card .conte nt .details h2 {
+  font-size:18px;
+  color:white;
+  }
+  .projectss .card .content .details h2 span {
+  font-size:18px;
+  color:rgb(44, 43, 44);
+    transition:0.5s;
+  }
+  .projectss .card:hover .content .details h2 span {
+    color:white;
+    position:relative
+  }
+ 
+  
+  /* footer-> social links  */
 .svg-inline--fa {
   vertical-align: -0.200em;
 }
@@ -138,104 +239,3 @@ h4{
   background: #fefefe;
   border-color: #14181b;
 }
-
-
-.tech-icon{
-  height:40px;
-  width: 45px;
-}
-.interests .icon-box {
-  display:inline-flex;
-  align-items: center;
-  
-}
-img.tech-icon{
-  position: relative;
-    margin-right: auto;
-    margin-left: 2em;;
-    left: 3px;
-}
-
-h3.xd{
-  color:rgb(189, 224, 238);
-  font-weight: 300;
-  margin: 0;
-  padding: 0;
-  padding-left: 0.5rem;
-  line-height: 1;
-  font-size: 20px;
-}
-
-
-.projectss {
-  width:350px;
-   display:inline-block;
-    margin-left:50px;
-    margin-top:50px
-    
-  }
-  
-  
-  .projectss .card {
-    
-    position:relative;
-    overflow:hidden;
-    width:350px;
-    margin:0 auto;
-    background:#333;
-    padding:20px;
-    box-sizing:border-box;
-    text-align:center;
-    box-shadow:0 10px 40px rgba(0,0,0,.5)
-  }
-  .projectss .card .layer {
-    z-index:1;
-    position:absolute;
-    top:calc(100% - 2px);
-    height:100%;
-    width:100%;
-    left:0;
-    background:linear-gradient(to left , orange, tomato);
-    transition:0.5s;
-    
-  }
-  
-  .projectss .card .content {
-    z-index:2; 
-    position:relative;
-  }
-  
-  .projectss .card:hover  .layer{
-    top:0;
-  }
-  
-  .projectss .card .content p {
-    font-size:14px;
-    line-height:24px;
-    color:#fff;
-    
-  }
-  .projectss .card .content .image {
-    width:300px; height:300px;
-    margin:0 auto;
-    overflow:hidden;
-    border: 4px solid white;
-    
-    
-  }
-  
-  .projectss .card .conte nt .details h2 {
-  font-size:18px;
-  color:white;
-  }
-  .projectss .card .content .details h2 span {
-  font-size:18px;
-  color:purple;
-    transition:0.5s;
-  }
-  .projectss .card:hover .content .details h2 span {
-    color:white;
-    position:relative
-  }
-  
-  
