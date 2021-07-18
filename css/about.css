@@ -1,0 +1,244 @@
+
+body {
+    background-color:#0e1427;
+    text-align: center;
+    color:#fff;
+    padding-left: 1em;
+    padding-right: 1em;
+    margin-bottom: 70px;
+    }
+    
+   img{
+      height: 300px;
+     width:250px;
+     display:block;
+      margin-left: auto;
+     margin-right: auto;
+   }
+  
+  
+  /* type-writer effect */
+  .typewrite{
+    color: #950740;
+   text-decoration: none;
+   margin-top:2em;
+    }
+  
+   a, a:hover, a:focus, a:active {
+     text-decoration: none;
+     color: #5cdb95;
+     }
+  
+  
+   h3.hglight{
+    text-transform: uppercase;
+    color: #6f2232;
+    font-family: cursive;
+    margin-left: 1.4em;
+   }
+  
+   h3.about{
+     color: #c3074f;
+     font-size: 45px;
+     padding-left: 1em;
+   }
+  
+   h4.degree{
+     font-size:25px;
+     font-weight: bold;
+     color:antiquewhite
+   }
+  p.college{
+    line-height: 1.2em;
+    margin-left:0.2em;
+  }
+  
+  h4{
+    color:#4e4e50;
+    font-weight: bolder;
+  } 
+  
+  
+  /* Skills */
+  .tech-icon{
+    height:50px;
+    width: 55px;
+  }
+  .interests .icon-box {
+    display:inline-flex;
+    align-items: center;
+    
+  }
+  img.tech-icon{
+    position: relative;
+      margin-right: auto;
+      margin-left: 2em;;
+      left: 3px;
+  }
+  
+  h3.xd{
+    color: #adadad;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+    padding-left: 0.5rem;
+    line-height: 1;
+    font-size: 20px;
+  }
+  
+  /*Projects */
+  .projectss {
+    width:350px;
+     display:inline-block;
+      margin-left:5px;
+      margin-top:50px;
+      padding-left: 3em;
+      padding-right: 3em;
+      padding-top: 1em;
+      padding-bottom: 1em; 
+    
+    }
+    @media only screen and (max-width: 600px) {
+      .projectss {
+        width:100%;
+        padding-left:0em;
+        padding-right:1em;
+  
+        }
+    }
+    
+    .projectss .card {
+      overflow:hidden;
+      width:350px;
+      margin:0 auto;
+      background:#333;
+      padding:20px;
+      box-sizing:border-box;
+      border:2px solid #000;
+    }
+    .projectss .card .layer {
+      z-index:1;
+      position:absolute;
+      top:calc(100% - 2px);
+      height:100%;
+      width:100%;
+      left:0;
+      background:linear-gradient(to left , #665cf1, #45a29e);
+      transition:0.5s;
+      
+    }
+    
+    .projectss .card .content {
+      z-index:2; 
+      position:relative;
+    }
+    
+    .projectss .card:hover  .layer{
+      top:0;
+    }
+    
+    .projectss .card .content p {
+      font-size:14px;
+      line-height:24px;
+      color:#fff;
+      
+    }
+    .projectss .card .content .image {
+      width:300px; height:300px;
+      margin:0 auto;
+      overflow:hidden;
+     
+    }
+    
+    .projectss .card .conte nt .details h2 {
+    font-size:18px;
+    color:white;
+    }
+    .projectss .card .content .details h2 span {
+    font-size:18px;
+    color:rgb(44, 43, 44);
+      transition:0.5s;
+    }
+    * footer-> social links  */
+    .svg-inline--fa {
+      vertical-align: -0.200em;
+    }
+    
+    .rounded-social-buttons {
+      align-items: center;
+      padding-left: 3em;
+      padding-top: 1em;
+    }
+    
+    .rounded-social-buttons .social-button {
+      display: inline-block;
+       cursor: pointer;
+      width: 3.125rem;
+      height: 3.125rem;
+      border: 0.125rem solid transparent;
+      padding: 0;
+      text-decoration: none;
+      text-align: center;
+      color: #fefefe;
+      font-size: 1.5625rem;
+      font-weight: normal;
+      line-height: 2em;
+      border-radius: 1.6875rem;
+      transition: all 0.5s ease;
+      margin-right: 0.25rem;
+      margin-bottom: 0.25rem;
+    }
+    
+    .rounded-social-buttons .social-button:hover, .rounded-social-buttons .social-button:focus {
+      -webkit-transform: rotate(360deg);
+          -ms-transform: rotate(360deg);
+              transform: rotate(360deg);
+    }
+    
+    .rounded-social-buttons .fa-twitter, .fa-linkedin, .fa-github,.fa-medium{
+      font-size: 25px;
+    }
+    
+    
+    .rounded-social-buttons .social-button.twitter {
+      background: #55acee;
+    }
+    
+    .rounded-social-buttons .social-button.twitter:hover, .rounded-social-buttons .social-button.twitter:focus {
+      color: #55acee;
+      background: #fefefe;
+      border-color: #55acee;
+    }
+    
+    .rounded-social-buttons .social-button.linkedin {
+      background: #007bb5;
+    }
+    
+    .rounded-social-buttons .social-button.linkedin:hover, .rounded-social-buttons .social-button.linkedin:focus {
+      color: #007bb5;
+      background: #fefefe;
+      border-color: #007bb5;
+    }
+    
+    .rounded-social-buttons .social-button.github {
+      background: #161616;
+    }
+    
+    .rounded-social-buttons .social-button.github:hover, .rounded-social-buttons .social-button.github:focus {
+      color: #131111;
+      background: #fefefe;
+      border-color: #131111;
+    }
+    
+    .rounded-social-buttons .social-button.medium {
+      background: #30243b;
+    }
+    
+    .rounded-social-buttons .social-button.medium:hover, .rounded-social-buttons .social-button.medium:focus {
+      color: #14181b;
+      background: #fefefe;
+      border-color: #14181b;
+    } 
+   
+    
+  
