@@ -7,6 +7,9 @@ body {
   padding-right: 1em;
   margin-bottom: 70px;
   }
+  #particle-js {
+    z-index:5; position: absolute;top:0;height:300vh;width:200vw;
+  }
  img{
     height: 300px;
    width:250px;
