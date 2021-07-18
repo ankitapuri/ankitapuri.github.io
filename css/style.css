@@ -61,7 +61,7 @@ body {
     transition: 500ms;
     text-align: center;
     margin-left: 5em;
-    margin-top: 2em;
+    margin-right: 5em;
   }
   
   button:hover {
@@ -87,7 +87,9 @@ body {
 .rounded-social-buttons {
   align-items: center;
    padding-top: 1em;
-   margin-top: auto;
+   margin-top: 2px;
+   margin-bottom: auto;
+   
 }
 
 .rounded-social-buttons .social-button {
