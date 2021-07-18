@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow:ital@1&display=swap');
 body {
   background-color:#0e1427;
   text-align: center;
@@ -6,177 +6,93 @@ body {
   padding-left: 1em;
   padding-right: 1em;
   margin-bottom: 70px;
+  overflow: hidden;
   }
-  #particle-js {
-    z-index:5; position: absolute;top:0;height:300vh;width:200vw;
-  }
+  
  img{
-    height: 300px;
-   width:250px;
+   height: 350px;
+   width:275px;
    display:block;
     margin-left: auto;
    margin-right: auto;
+   border-width: 2px;
+   margin-top: 35px;
  }
 
 
 /* type-writer effect */
 .typewrite{
-  color: #950740;
+ color: #c42665;
  text-decoration: none;
  margin-top:2em;
+ font-family: 'Archivo Narrow', sans-serif;
+ margin-top: 20px;
+ font-weight: 1000;
+ display: inline-block;
   }
 
  a, a:hover, a:focus, a:active {
    text-decoration: none;
    color: #5cdb95;
    }
-
-
- h3.hglight{
-  text-transform: uppercase;
-  color: #6f2232;
-  font-family: cursive;
-  margin-left: 1.4em;
- }
-
- h3.about{
-   color: #c3074f;
-   font-size: 45px;
-   padding-left: 1em;
- }
-
- h4.degree{
-   font-size:25px;
-   font-weight: bold;
-   color:antiquewhite
- }
-p.college{
-  line-height: 1.2em;
-  margin-left:0.2em;
-}
-
-h4{
-  color:#4e4e50;
-  font-weight: bolder;
-} 
-
-
-/* Skills */
-.tech-icon{
-  height:50px;
-  width: 55px;
-}
-.interests .icon-box {
-  display:inline-flex;
-  align-items: center;
   
-}
-img.tech-icon{
-  position: relative;
-    margin-right: auto;
-    margin-left: 2em;;
-    left: 3px;
-}
-
-h3.xd{
-  color: #adadad;
-  font-weight: 500;
-  margin: 0;
-  padding: 0;
-  padding-left: 0.5rem;
-  line-height: 1;
-  font-size: 20px;
-}
-
-/*Projects */
-.projectss {
-  width:350px;
-   display:inline-block;
-    margin-left:5px;
-    margin-top:50px;
-    padding-left: 3em;
-    padding-right: 3em;
-    padding-top: 1em;
-    padding-bottom: 1em; 
-  
-  }
-  @media only screen and (max-width: 600px) {
-    .projectss {
-      width:100%;
-      padding-left:0em;
-      padding-right:1em;
-
-      }
+   .noselect {
+    -webkit-touch-callout: none;
+      -webkit-user-select: none;
+       -khtml-user-select: none;
+         -moz-user-select: none;
+          -ms-user-select: none;
+              user-select: none;
+      -webkit-tap-highlight-color: transparent;
   }
   
-  .projectss .card {
-    overflow:hidden;
-    width:350px;
-    margin:0 auto;
-    background:#333;
-    padding:20px;
-    box-sizing:border-box;
-    border:2px solid #000;
-  }
-  .projectss .card .layer {
-    z-index:1;
-    position:absolute;
-    top:calc(100% - 2px);
-    height:100%;
-    width:100%;
-    left:0;
-    background:linear-gradient(to left , #665cf1, #45a29e);
-    transition:0.5s;
-    
+  button {
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+    background: #6dd6d1;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 10px 25px #57aba7, 0px -10px 25px #a6fffa, inset 0px -5px 10px #57aba7, inset 0px 5px 10px #a6fffa;
+    font-family:'Archivo Narrow', sans-serif;
+    color: rgb(241, 234, 234);
+    font-size: 20px;
+    font-weight:bolder;
+    transition: 500ms;
+    text-align: center;
+    margin-left: 5em;
+    margin-top: 2em;
   }
   
-  .projectss .card .content {
-    z-index:2; 
-    position:relative;
+  button:hover {
+      border: 2px solid #6dd6d1;
+    animation: hueRotation 2s linear infinite;
   }
   
-  .projectss .card:hover  .layer{
-    top:0;
+  @keyframes hueRotation {
+    to {filter: hue-rotate(360deg);}
   }
   
-  .projectss .card .content p {
-    font-size:14px;
-    line-height:24px;
-    color:#fff;
-    
+  button:focus {
+    outline: none;
   }
-  .projectss .card .content .image {
-    width:300px; height:300px;
-    margin:0 auto;
-    overflow:hidden;
-   
-  }
+
+
   
-  .projectss .card .conte nt .details h2 {
-  font-size:18px;
-  color:white;
-  }
-  .projectss .card .content .details h2 span {
-  font-size:18px;
-  color:rgb(44, 43, 44);
-    transition:0.5s;
-  }
-  
- 
-  
-  /* footer-> social links  */
+ /* footer-> social links  */
 .svg-inline--fa {
   vertical-align: -0.200em;
 }
 
 .rounded-social-buttons {
   align-items: center;
+   padding-top: 1em;
+   margin-top: auto;
 }
 
 .rounded-social-buttons .social-button {
   display: inline-block;
-  position: relative;
-  cursor: pointer;
+   cursor: pointer;
   width: 3.125rem;
   height: 3.125rem;
   border: 0.125rem solid transparent;
